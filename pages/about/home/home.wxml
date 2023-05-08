@@ -1,0 +1,32 @@
+
+<scroll-view scrollY class="scrollPage">
+
+    <view class="UCenter-bg">
+        <view data-weui-theme="{{theme}}" class="flex justify-center">
+            <view class="text-center">
+
+                <button class="cu-avatar xl round solids" style="width: 130rpx;height: 130rpx;overflow: hidden;" open-type="chooseAvatar" bind:chooseavatar="onChooseAvatar">
+                    <image class="cu-avatar xl round solids" style="width: 130rpx;height: 130rpx;overflow: hidden;" src="{{avatarUrl}}"></image>
+                </button>
+                <mp-form>
+                    <mp-cells>
+                        <mp-cell title="昵称">
+                            <input type="nickname" placeholder="请输入昵称" />
+                        </mp-cell>
+                    </mp-cells>
+                </mp-form>
+            </view>
+        </view>
+    </view>
+
+
+    <view class="cu-list menu card-menu margin-top-xl margin-bottom-xl shadow-lg radius">
+        <view class="cu-item arrow">
+            <navigator class="content" hoverClass="none" url="/pages/rename/rename">
+                <text class="cuIcon-formfill text-blue"></text>
+                <text class="text-grey"> 王者改名</text>
+            </navigator>
+        </view>
+    </view>
+</scroll-view>
+
