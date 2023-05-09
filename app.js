@@ -14,19 +14,19 @@ App(e({
         swiperList: [{
             id: 0,
             type: "image",
-            url: "https://api.cxkf.cc/wxxcx/kh/wangzhe/img/1.jpg"
+            url: "https://www.xiaoyunyu.com/images/1.jpeg"
         }, {
             id: 1,
             type: "image",
-            url: "https://api.cxkf.cc/wxxcx/kh/wangzhe/img/2.jpg"
+            url: "https://www.xiaoyunyu.com/images/2.jpeg"
         }, {
             id: 2,
             type: "image",
-            url: "https://api.cxkf.cc/wxxcx/kh/wangzhe/img/3.jpg"
+            url: "https://www.xiaoyunyu.com/images/3.jpeg"
         }, {
             id: 3,
             type: "image",
-            url: "https://api.cxkf.cc/wxxcx/kh/wangzhe/img/4.jpg"
+            url: "https://www.xiaoyunyu.com/images/4.jpeg"
         }]
     };
 }));

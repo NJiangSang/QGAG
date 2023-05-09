@@ -2531,12 +2531,11 @@ swiper.round-dot .wx-swiper-dot.wx-swiper-dot-active {
 }
 
 .card-swiper {
-    height: 420rpx !important;
+    height: 410rpx;
 }
 
 .card-swiper swiper-item {
-    width: 610rpx !important;
-    left: 70rpx;
+    width: 600rpx;
     box-sizing: border-box;
     padding: 40rpx 0rpx 70rpx;
     overflow: initial;
@@ -2550,7 +2549,7 @@ swiper.round-dot .wx-swiper-dot.wx-swiper-dot-active {
     transform: scale(.9);
     transition: all .2s ease-in 0s;
     overflow: hidden;
-}
+} 
 
 .card-swiper swiper-item.cur .swiper-item {
     transform: none;
