@@ -1,9 +1,9 @@
 {
   "pages": [
+    "pages/ioswx/index",
+    "pages/iosqq/index",
     "pages/qq/index",
     "pages/wx/index",
-    "pages/iosqq/index",
-    "pages/ioswx/index",
     "pages/rename/rename",
     "pages/about/home/home",
     "pages/about/introduce/introduce"
@@ -21,14 +21,8 @@
     "backgroundColor": "#fff",
     "list": [
       {
-        "text": "安卓QQ",
-        "pagePath": "pages/qq/index",
-        "iconPath": "images/tabbar/qq.png",
-        "selectedIconPath": "images/tabbar/qq_cur.png"
-      },
-      {
-        "text": "安卓微信",
-        "pagePath": "pages/wx/index",
+        "text": "苹果微信",
+        "pagePath": "pages/ioswx/index",
         "iconPath": "images/tabbar/wx.png",
         "selectedIconPath": "images/tabbar/wx_cur.png"
       },
@@ -39,8 +33,14 @@
         "selectedIconPath": "images/tabbar/qq_cur.png"
       },
       {
-        "text": "苹果微信",
-        "pagePath": "pages/ioswx/index",
+        "text": "安卓QQ",
+        "pagePath": "pages/qq/index",
+        "iconPath": "images/tabbar/qq.png",
+        "selectedIconPath": "images/tabbar/qq_cur.png"
+      },
+      {
+        "text": "安卓微信",
+        "pagePath": "pages/wx/index",
         "iconPath": "images/tabbar/wx.png",
         "selectedIconPath": "images/tabbar/wx_cur.png"
       },
